@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="bine-zavod-coreyi-680-gr.jpg" />
+    <None Remove="download %281%29.jpg" />
+    <None Remove="download.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="bine-zavod-coreyi-680-gr.jpg" />
+    <Resource Include="download (1).jpg" />
+    <Resource Include="download.jpg" />
+  </ItemGroup>
+
+</Project>
